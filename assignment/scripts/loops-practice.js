@@ -27,13 +27,13 @@ console.log(i);
 // 1.c. TODO: Write a for loop to console.log EVEN numbers from 2 to 10
 //   - Which part of the example loop do you need to change to do this?
 !!!
-for (let i=0; i<4; i++) {
+for (let i=0; i<4; i+=2) {
 console.log('count even numbers from 2 to 10 (2, 4, 6, 8, 10):');
 console.log(i)
 }
 // 1.d. (STRETCH) TODO: Write a for loop to do a countdown from 5 to 0
 // change i=0 to i=6, change < to >, and i++ to i--
-for (let i=6; i>0; i--) {
+for (let i=6; i>=0; i--) {
 console.log('STRETCH: countdown from 5 to 0');
 console.log(i);
 }
