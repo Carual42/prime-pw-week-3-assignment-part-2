@@ -52,8 +52,8 @@ for ( sky of stars){
 console.log('---- 3. While loop ----');
 
 // 3.a. TODO: Write a while loop to console.log each star in the 'stars' array
-let i = 0
-const max = 5
+let i = 0;
+const max = 5;
 
 console.log('Some stars using while:');
 while (i < max){
@@ -62,14 +62,18 @@ while (i < max){
 }
 // 3.b. TODO: Write a while loop to console.log the numbers from 0 to 5
 console.log('count from 0 to 5');
-while (i < max){
-  console.log(i)
-  i++
+let a = 1;
+const newMax = 5;
+while (a <= newMax){
+  console.log(a)
+  a++
 }
 // 3.c. TODO: Write a while loop to console.log the numbers from 10 to 5
 console.log('count backwards from 10 to 5');
-while (i < max){
-  let sum = 10 + i * -1
+let b = 0
+const finalMax = 6
+while (b < finalMax){
+  let sum = 10 + (b * -1)
   console.log(sum)
-  i++
+  b++
 }
